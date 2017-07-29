@@ -59,7 +59,6 @@ h3 {
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
-  overflow: auto;
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
@@ -128,7 +127,7 @@ nav {
 }
 
  /* image of yourself*/
-.auth-image { 
+.auth-image {
 	float: left;
  	width: 200px;
  	height: auto;
@@ -174,4 +173,40 @@ nav {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
+}
+
+/* Portfolio Images */
+.mythumbnail {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0px 25px;
+}
+
+.mythumbnail:nth-child(even) {
+  margin-right: 40px;
+}
+
+.mythumbnail img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.mythumbnail h4 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.form-control {
+  width: 100%
 }
