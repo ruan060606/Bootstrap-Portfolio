@@ -133,7 +133,7 @@ nav {
  	height: auto;
  	margin-top: 10px;
   margin-right: 25px;
-  border: 3px solid black;
+  border: 1px solid black;
 }
 
 /* sidebar width */
@@ -155,14 +155,15 @@ nav {
 }
 /* the sidebar images */
 .social {
-  float: left;
   width: 62px;
   height: 62px;
   margin-top: 8px;
   margin-right: 5px;
 }
 
-
+.social:last-child {
+  margin-right: 0;
+}
 
 .nav {
 	margin-top: 10%;
@@ -207,6 +208,32 @@ nav {
   border-bottom: 0;
 }
 
-.form-control {
+.input-group,
+input[type=name],
+input[type=email] {
+  display: block;
   width: 100%
+}
+
+input[type=name],
+input[type=email] {
+  height: 35px;
+  padding: 0px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+ input[type=message] {
+  padding-top: 10px;
+  padding-bottom: 190px;
+  font-size: 14px;
+ }
+
+input[type=submit] {
+  margin-top: 2%;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
 }
